@@ -1,0 +1,22 @@
+package for¹®;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.IOException;
+
+
+public class num4 {
+	public static void main(String[] args) throws IOException{
+		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+		String s = bf.readLine();
+		
+		System.out.println("tq");
+		int i = Integer.parseInt(bf.readLine());
+		
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		bw.write(Integer.toString(i));
+		bw.flush();
+		bw.close();
+	}
+}
